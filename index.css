@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(91, 235, 235);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main_div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.center_div {
+  width: 25%;
+  height: 80vh;
+  background-color: rgb(249, 245, 251);
+  border-radius: 14px;
+  box-shadow: 5px 5px 25px -5px black;
+}
+h1 {
+  color: rgb(253, 250, 253);
+  background-color: rgb(190, 109, 244);
+  padding: 6px 0 3px 0;
+  margin-bottom: 10px;
+  font-size: 50px;
+  box-shadow: 5px 5px 15px -5px black;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif !important;
+
+}
+input {
+  text-align: center;
+  height: 45px;
+  top: 10px;
+  border: none;
+  /* background: transparent; */
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 4px solid rgb(145, 32, 220);
+  outline: none;
+}
+.btn {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: rgb(176, 108, 241);
+  color: white;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  /* margin-top: 10px; */
+  margin-left: 20px;
+  box-shadow: 5px 5px 15px -5px black;
+  cursor: pointer;
+}
+.newbtn {
+  /* display: inline-block; */
+  /* min-height: 30px; */
+  /* width: 30px; */
+  border-radius: 50%;
+  /* border-color: transparent; */
+  /* background-color: rgb(176, 108, 241); */
+  /* color: white; */
+  /* font-size: 50px; */
+  border: none;
+  padding: 0.3rem;
+  /* outline: none; */
+  /* margin-top: 10px; */
+  /* margin: 0px; */
+  color: rgb(252, 250, 250);
+  background-color: rgb(176, 108, 241); 
+  /* box-shadow: 5px 5px 15px -5px black; */
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(3, 191, 3);
+}
+.newbtn:hover {
+  background-color: rgb(244, 4, 4);
+}
+ol {
+  margin-top: 30px;
+}
+ol li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: inline-block;
+  align-items: center;
+  color: rgb(4, 52, 94);
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+.todo_style{
+  /* border: 2px solid red; */
+  align-items: start !important;
+  text-align: left;
+  margin-left: 32px;
+}
